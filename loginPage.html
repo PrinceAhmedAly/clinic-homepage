@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/loginPageStyle.css" />
+    <link rel="stylesheet" href="test.php" />
+    <title>تسجيل الدخول</title>
+
+    <body>
+        <div class="container">
+            <nav class="container">
+              <div class="menu">
+                <ul>
+                  <li><a href="#">مواعيد</a></li>
+                  <li><a href="#">طبيبنا</a></li>
+                  <li><a href="#">خدماتنا</a></li>
+                  <li><a href="#">البيت</a></li>
+                </ul>
+              </div>
+      
+              <div class="logo">
+                <img src="assets/images/logo.png" alt="logo" />
+              </div>
+            </nav>
+        </div>
+
+      <div class="container">
+        <div class="title">
+            <h2>تسجيل الدخول</h2>
+        </div>
+        <form action="login.php" method="post">
+
+          <input type="email" placeholder="البريد الإلكتروني" required />
+          <input type="password" placeholder="كلمة المرور" required />
+          <div class="pass-link"><a href="#"> forgot password</a></div>
+
+          <input type="submit" value="الدخول" />
+        </form>
+      </div>
+    </body>
+  </head>
+</html>
